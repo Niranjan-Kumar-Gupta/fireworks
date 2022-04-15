@@ -51,15 +51,6 @@ class Firework{
         this.randomPos = Math.random()*10-5 
     }
     draw(){
-        // ctx.save();
-        // ctx.globalAlpha = this.alpha; 
-        // ctx.beginPath();
-        // ctx.translate(this.x,this.y)
-        // ctx.fillStyle = this.color;       
-        // ctx.arc(this.randomPos,this.randomPos,this.size*0.5,0,Math.PI*2);
-        // ctx.fill(); 
-        // ctx.closePath();
-        // ctx.restore();
         drawStar(this.x,this.y,6,this.size,this.size*0.5,this.color)
     }
     update(){
